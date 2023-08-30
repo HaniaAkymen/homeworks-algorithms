@@ -1,0 +1,33 @@
+/*Написать псевдокод, блок-схему или текстовое описание для алгоритма: сложить три числа и вывести сумму.
+Реализовать алгоритм в кодe.
+Псевмокод:
+Ввод числа n1;
+Ввод числа n2;
+Вввод числа n3;
+Sum = n1 + n2 + n3;
+Вывод = "Сумма чисел равна: " + Sum;
+*/
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Введите число 1");
+        Float n1 = scanner.nextFloat();
+
+        System.out.println("Введите число 2");
+        Float n2 = scanner.nextFloat();
+
+        System.out.println("Введите число 3");
+        Float n3 = scanner.nextFloat();
+        
+        Float sum = n1 + n2 + n3;
+        System.out.println("Сумма чисел равна: " + sum);
+    }
+}
+
+
+
