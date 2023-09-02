@@ -1,0 +1,11 @@
+package home_work2;
+
+public class Main {
+    public static void main(String[] args) {
+
+       ArraysMax arrayMax = new ArraysMax();
+       int max = arrayMax.maxArray();
+       System.out.println("Максимальный элемент массива равен:" + max);
+
+    }
+}
