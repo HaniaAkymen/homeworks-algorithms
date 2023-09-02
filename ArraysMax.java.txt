@@ -1,0 +1,29 @@
+// 1. У Описанного ниже алгоритма O(n), сложность будет линейной,
+// мы проходимся по массиву и сравниваем каждый его элемент с максимумом.
+
+package home_work2;
+
+public class ArraysMax {
+    int[] array = {17, 35, -84, 120, 3, 2, 800, 55};
+
+    public ArraysMax(int[] array) {
+        this.array = array;
+    }
+
+    public ArraysMax() {
+
+    }
+
+    public int maxArray (){
+        int max = array[0]; // 1
+
+
+        for (int i = 1; i < array.length; i++) {//8;
+           if (array[i] > max) {
+                max = array[i];
+            }
+          }
+        return max;
+    }
+
+}
